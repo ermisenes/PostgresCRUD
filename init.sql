@@ -1,4 +1,4 @@
-CREATE TABLE public.patients    
+CREATE TABLE public.patientsxx    
 (    
   id character varying(50) NOT NULL,    
   name character varying(200) NOT NULL,    
@@ -9,5 +9,5 @@ CREATE TABLE public.patients
   CONSTRAINT patient_pkey PRIMARY KEY (id)    
 );    
     
-ALTER TABLE public.patients    
+ALTER TABLE public.patientsxx   
   OWNER TO sarath;  
