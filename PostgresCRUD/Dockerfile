@@ -19,9 +19,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 
-FROM postgres as img2
-ENV POSTGRES_PASSWORD postgres 
-ENV POSTGRES_DB testdb 
-COPY init.sql /docker-entrypoint-initdb.d/
-
 ENTRYPOINT ["dotnet", "PostgresCRUD.dll"]
