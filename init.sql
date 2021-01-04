@@ -1,7 +1,7 @@
 CREATE TABLE public.patients    
 (    
   id character varying(50) NOT NULL,    
-  name character varying(200) NOT NULL,    
+  Personname character varying(200) NOT NULL,    
   address character varying(500),    
   city character varying(100),    
   age numeric NOT NULL,    
