@@ -19,9 +19,6 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 
-FROM postgres 
-ENV POSTGRES_PASSWORD postgres 
-ENV POSTGRES_DB testdb 
 COPY init.sql /docker-entrypoint-initdb.d/
 
 
