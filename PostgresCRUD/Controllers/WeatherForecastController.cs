@@ -13,7 +13,7 @@ namespace PostgresCRUD.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-         "Donma", "Destekleme", "Soğuk", "Soğuk", "Hafif", "Sıcak", "Balsam", "Sıcak", "Sıcak", "Kavurucu"
+         "Donma"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
