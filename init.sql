@@ -18,4 +18,4 @@ insert into patients (id,name, address, city, age, gender) values (6,'Marleen', 
 insert into patients (id,name, address, city, age, gender) values (7,'Gaelan', '623 Summit Road', 'Bangus Kulon', 30, 'Male');
 insert into patients (id,name, address, city, age, gender) values (8,'Sibby', '4385 Meadow Vale Avenue', 'Sala', 80, 'Female');
 insert into patients (id,name, address, city, age, gender) values (9,'Terri', '8 Golden Leaf Junction', 'Ranchuelo', 63, 'Female');
-insert into patients (id,name, address, city, age, gender) values (11,'Enes', '6892 Blaine Center', 'Vereshchagino', 24, 'Male');
+insert into patients (id,name, address, city, age, gender) values (10,'Clem', '6892 Blaine Center', 'Vereshchagino', 43, 'Male');
