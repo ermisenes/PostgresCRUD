@@ -13,10 +13,10 @@ namespace PostgresCRUD.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-  "Donma", "Destekleme", "Soğuk", "Soğuk", "Hafif", "Sıcak", "Balsam", "Sıcak", "Sıcak", "Kavurucu"
+  //"Donma", "Destekleme", "Soğuk", "Soğuk", "Hafif", "Sıcak", "Balsam", "Sıcak", "Sıcak", "Kavurucu"
     
     
- //"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+ "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 
         };
 
