@@ -18,6 +18,4 @@ RUN dotnet publish "PostgresCRUD.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-
 ENTRYPOINT ["dotnet", "PostgresCRUD.dll"]
-
