@@ -15,6 +15,8 @@ namespace PostgresCRUD.Controllers
         {
         "Donma", "Destekleme", "Soğuk", "Soğuk", "Hafif", "Sıcak", "Balsam", "Sıcak", "Sıcak", "Kavurucu"
     
+
+
     
         //"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 
